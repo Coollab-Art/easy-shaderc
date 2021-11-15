@@ -1,3 +1,5 @@
+set(CMAKE_POLICY_DEFAULT_CMP0077 NEW) # Allows us to override options https://cmake.org/cmake/help/latest/policy/CMP0077.html
+
 set(SHADERC_SKIP_INSTALL true)
 set(SHADERC_SKIP_TESTS true)
 set(SHADERC_SKIP_EXAMPLES true)
