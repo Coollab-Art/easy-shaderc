@@ -1,6 +1,6 @@
 # easy-shaderc
 
-This is a wrapper for [*shaderc*](https://github.com/google/shaderc) and its dependencies. Its aim is to make it easy to build *shaderc* from source and include it in your own project.
+This is a wrapper for [*shaderc*](https://github.com/google/shaderc) and its dependencies. Its aim is to make it easy to build *shaderc* from source and include it in your own projects.
 
 Add this repository as a submodule and in your *CMakeLists.txt* do:
 ```cmake
