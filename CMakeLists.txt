@@ -11,3 +11,11 @@ add_subdirectory(SPIRV-Tools EXCLUDE_FROM_ALL)
 add_subdirectory(glslang EXCLUDE_FROM_ALL)
 add_subdirectory(shaderc EXCLUDE_FROM_ALL)
 add_library(easy_shaderc::shaderc ALIAS shaderc)
+
+# ---------------------
+# ---Licenses---
+# ---------------------
+install(FILES "glslang/LICENSE.txt" DESTINATION "license/glslang")
+install(FILES "shaderc/LICENSE" DESTINATION "license/shaderc")
+install(FILES "SPIRV-Headers/LICENSE" DESTINATION "license/SPIRV-Headers")
+install(FILES "SPIRV-Tools/LICENSE" DESTINATION "license/SPIRV-Tools")
